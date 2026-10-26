@@ -134,14 +134,14 @@ dialog::backdrop{background:rgba(0,0,0,.85)}
 <script>
 /* ===== CONFIGURAÇÃO: edite aqui ===== */
 const CONFIG={email:"geral@antunesecalisto.pt",tel:"+351 000 000 000",wa:"351000000000",morada:"Portugal"};
-const HERO_IMAGE="media/render-2o.jpg";
-// Portefólio: "imgs" aceita fotos ("media/x.jpg") e vídeos ({v:"media/x.mp4",p:"media/x.jpg"}, com p = imagem de capa)
-const R=n=>`media/render-${n}.jpg`,O=n=>`media/obra-${n}.jpg`,B=n=>`media/bs-${n}.jpg`,BV=n=>({v:`media/bs-video-${n}.mp4`,p:`media/bs-video-${n}.jpg`});
+const HERO_IMAGE="render-2o.jpg";
+// Portefólio: "imgs" aceita fotos ("x.jpg") e vídeos ({v:"x.mp4",p:"x.jpg"}, com p = imagem de capa)
+const R=n=>`render-${n}.jpg`,O=n=>`obra-${n}.jpg`,B=n=>`bs-${n}.jpg`,BV=n=>({v:`bs-video-${n}.mp4`,p:`bs-video-${n}.jpg`});
 const PROJECTS=[
 {t:"Ferreiros Condomínio",l:"Ferreiros, Braga",tipo:"Residencial",estado:"Em comercialização",meta:["T1 a T3","Piscina","Condomínio"],
  ficha:[["Localização","Ferreiros, Braga"],["Tipologias","T1 a T3"],["Comodidades","Piscina e condomínio"],["Estado","Em comercialização"]],
  d:"Empreendimento residencial em Ferreiros, Braga, com apartamentos de tipologias T1 a T3, piscina e condomínio. Em comercialização. Veja o projeto 3D, os vídeos e o acompanhamento da obra.",
- imgs:[R("re3d"),R("2o"),R("re5"),R("re4d"),R("re7d"),R("re2"),{v:"media/video-2.mp4",p:"media/video-2.jpg"},{v:"media/video-1.mp4",p:"media/video-1.jpg"},O(1),O(2),O(3),O(4),O(5),O(6)]},
+ imgs:[R("re3d"),R("2o"),R("re5"),R("re4d"),R("re7d"),R("re2"),{v:"video-2.mp4",p:"video-2.jpg"},{v:"video-1.mp4",p:"video-1.jpg"},O(1),O(2),O(3),O(4),O(5),O(6)]},
 {t:"Empreendimento Braga-Sul",l:"Ferreiros, Braga",tipo:"Residencial",estado:"Concluído",meta:["T3","Obra concluída"],
  ficha:[["Localização","Ferreiros, Braga"],["Tipologias","T3"],["Estado","Concluído"]],
  d:"Empreendimento residencial concluído em Ferreiros, Braga, com apartamentos de tipologia T3. Acompanhe a obra, da escavação ao acabamento, em fotografias e vídeo.",
